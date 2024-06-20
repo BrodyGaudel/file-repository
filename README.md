@@ -125,7 +125,9 @@ public class Person {
 
 public class PersonFileService {
 
-    private final FileRepository<Person, String> fileRepository = new FileRepositoryImpl<>("C:/Users/brody/Desktop/person.txt", Person.class);
+    private final FileRepository<Person, String> fileRepository = new FileRepositoryImpl<>(
+            "C:/Users/brody/Desktop/person.txt", Person.class
+    );
 
 
     @Override
@@ -172,7 +174,7 @@ public class PersonFileService {
 
 ## Contributing
 
-Contributions are welcome! Please submit pull requests and report issues on the [GitHub repository](https://github.com/your-username/file-repository).
+Contributions are welcome! Please submit pull requests and report issues on the [GitHub repository](https://github.com/BrodyGaudel/file-repository).
 
 ## License
 
