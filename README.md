@@ -1,6 +1,3 @@
-Voici la version anglaise mise à jour du fichier `README.md` avec les informations supplémentaires sur l'annotation `@Id` et l'exemple d'utilisation :
-
-```markdown
 # File Repository Library
 
 `file-repository` is a Java library for performing CRUD (Create, Read, Update, Delete) operations on files. This library provides a generic interface for managing entities in files.
@@ -17,6 +14,8 @@ Voici la version anglaise mise à jour du fichier `README.md` avec les informati
 ## Installation
 
 To use this library in your project, add the following dependency to your `pom.xml` if you are using Maven:
+do : git clone https://github.com/BrodyGaudel/file-repository.git 
+then : "mvn clean install"
 
 ```xml
 <dependency>
